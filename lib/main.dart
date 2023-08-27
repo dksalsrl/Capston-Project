@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:kakao_flutter_sdk_user/kakao_flutter_sdk_user.dart';
 import 'package:my_diary_app/screens/home_screen.dart';
 
 void main() {
+  KakaoSdk.init(nativeAppKey: '002001aad48dcca2375e4c52bb8c1281');
   runApp(const MyApp());
 }
 
