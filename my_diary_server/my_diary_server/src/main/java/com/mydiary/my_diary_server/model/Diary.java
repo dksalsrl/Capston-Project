@@ -1,15 +1,13 @@
 package com.mydiary.my_diary_server.model;
 
-
 import jakarta.persistence.*;
 import lombok.*;
 
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.util.Set;
 
 @Entity
-@Getter
-@Setter
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
@@ -34,13 +32,17 @@ public class Diary {
     private User author;
 
     // 다대다 관계: 일기와 태그
-    @ManyToMany
-    @JoinTable(
-            name = "diary_tag",
-            joinColumns = @JoinColumn(name = "diary_id"),
-            inverseJoinColumns = @JoinColumn(name = "tag_id")
-    )
-    private Set<Tag> tags;
+//    @ManyToMany
+//    @JoinTable(
+//            name = "diary_tag",
+//            joinColumns = @JoinColumn(name = "diary_id"),
+//            inverseJoinColumns = @JoinColumn(name = "tag_id")
+//    )
+//    private Set<Tag> tags;
+
+    public LocalDateTime CreatedAt;
+
+    public LocalDateTime updatedAt;
 
     // Constructors, getters, setters, and other methods
 

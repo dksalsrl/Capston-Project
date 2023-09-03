@@ -5,14 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f280213-9ab5-4c78-8a90-e3a0fcc629c6" name="변경" comment="변경">
-      <change afterPath="$PROJECT_DIR$/../.idea/Capston-Project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my_diary_app/linux/flutter/generated_plugin_registrant.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../my_diary_app/linux/flutter/generated_plugin_registrant.cc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my_diary_app/linux/flutter/generated_plugin_registrant.h" beforeDir="false" afterPath="$PROJECT_DIR$/../my_diary_app/linux/flutter/generated_plugin_registrant.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my_diary_app/linux/flutter/generated_plugins.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../my_diary_app/linux/flutter/generated_plugins.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my_diary_app/macos/Flutter/GeneratedPluginRegistrant.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../my_diary_app/macos/Flutter/GeneratedPluginRegistrant.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my_diary_app/windows/flutter/generated_plugin_registrant.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../my_diary_app/windows/flutter/generated_plugin_registrant.cc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my_diary_app/windows/flutter/generated_plugin_registrant.h" beforeDir="false" afterPath="$PROJECT_DIR$/../my_diary_app/windows/flutter/generated_plugin_registrant.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my_diary_app/windows/flutter/generated_plugins.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../my_diary_app/windows/flutter/generated_plugins.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_diary_server/src/main/java/com/mydiary/my_diary_server/config/SwaggerConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_diary_server/src/main/java/com/mydiary/my_diary_server/model/DiaryResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_diary_server/src/main/java/com/mydiary/my_diary_server/repository/TagRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_diary_server/src/main/java/com/mydiary/my_diary_server/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_diary_server/src/main/java/com/mydiary/my_diary_server/service/DiaryServiceImpl/DiaryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my_diary_app/lib/screens/home_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../my_diary_app/lib/screens/home_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_diary_server/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/my_diary_server/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_diary_server/src/main/java/com/mydiary/my_diary_server/controller/DiaryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/my_diary_server/src/main/java/com/mydiary/my_diary_server/controller/DiaryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_diary_server/src/main/java/com/mydiary/my_diary_server/model/Diary.java" beforeDir="false" afterPath="$PROJECT_DIR$/my_diary_server/src/main/java/com/mydiary/my_diary_server/model/Diary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_diary_server/src/main/java/com/mydiary/my_diary_server/model/DiaryDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/my_diary_server/src/main/java/com/mydiary/my_diary_server/model/DiaryDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_diary_server/src/main/java/com/mydiary/my_diary_server/model/Response.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_diary_server/src/main/java/com/mydiary/my_diary_server/model/Tag.java" beforeDir="false" afterPath="$PROJECT_DIR$/my_diary_server/src/main/java/com/mydiary/my_diary_server/model/Tag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_diary_server/src/main/java/com/mydiary/my_diary_server/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/my_diary_server/src/main/java/com/mydiary/my_diary_server/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_diary_server/src/main/java/com/mydiary/my_diary_server/model/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/my_diary_server/src/main/java/com/mydiary/my_diary_server/model/UserDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_diary_server/src/main/java/com/mydiary/my_diary_server/repository/DiaryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/my_diary_server/src/main/java/com/mydiary/my_diary_server/repository/DiaryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_diary_server/src/main/java/com/mydiary/my_diary_server/service/DiaryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/my_diary_server/src/main/java/com/mydiary/my_diary_server/service/DiaryService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -1,18 +1,16 @@
 package com.mydiary.my_diary_server.model;
 
-import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.*;
-import org.springframework.stereotype.Service;
 
 import java.time.LocalDate;
 
 
-@Getter
-@Setter
+@Data
+@NoArgsConstructor
 @AllArgsConstructor
-public class DiaryDTO {
+public class DiaryResponseDTO {
+    private Long id;
     private String title;
     private String content;
-    @JsonFormat(pattern = "yyyy-MM-dd")
     private LocalDate date;
 }
