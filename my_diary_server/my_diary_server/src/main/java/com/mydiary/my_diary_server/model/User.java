@@ -25,7 +25,11 @@ public class User {
     @Column(nullable = false)
     private String email;
 
+    @Column(length = 100)
+    private String provider;
+
     @OneToMany(mappedBy = "author", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     private Set<Diary> diaries;
+
 
 }
