@@ -15,11 +15,25 @@ class HomeScreen extends StatelessWidget {
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           // 일기 작성 화면으로 이동하는 코드를 추가할 수 있습니다.
-          Navigator.push(
-              context,
-              MaterialPageRoute(builder: (context) => KakaoLoginScreen()));
         },
         child: Icon(Icons.add),
+      ),
+      //로그인 버튼 추가
+      bottomNavigationBar: BottomAppBar(
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            ElevatedButton(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => KakaoLoginScreen()),
+                );
+              },
+              child: Text('Login'),
+            ),
+          ],
+        ),
       ),
     );
   }
